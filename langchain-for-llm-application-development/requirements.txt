@@ -1,0 +1,8 @@
+pip==24.0
+ipykernel==6.29.4
+python-dotenv==1.0.1
+setuptools==69.5.1
+langchain==0.2.0
+langchain-openai==0.1.7
+langchain-community==0.2.0
+openai==1.30.0
