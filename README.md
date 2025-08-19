@@ -23,9 +23,18 @@ For a look at our last planning sprint, check out the [repo](https://github.com/
 
 ### Getting Started
 
-Get a head start before our first session with these introductory courses from DeepLearning.AI:
-- [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
-- [LangChain: Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
+This repository contains submodules. To get all the materials of this repository:
+
+```bash
+git clone --recursive https://github.com/ukde-kr/knowledge-sharing.git 
+```
+
+### Courses
+
+Following courses from DeepLearning.AI have been covered:
+- [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/): (Week 1)
+- [LangChain: Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/): (Week 1)
+- [Long-Term Agentic Memory With LangGraph](https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph) (Week 2)
 
 ### License
 
