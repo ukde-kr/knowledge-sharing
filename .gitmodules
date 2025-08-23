@@ -1,0 +1,3 @@
+[submodule "taegyunha"]
+	path = taegyunha
+	url = https://github.com/TaegyunHa/LangChain.git
