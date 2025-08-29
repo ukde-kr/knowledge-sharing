@@ -1,16 +1,27 @@
-# Essential for notebook operation and file parsing
+# Essential notebook & env dependencies
 pip==24.0
 ipykernel==6.29.4
 python-dotenv==1.0.1
 setuptools==69.5.1
+jupyter_bokeh==3.0.7
 
 # LangChain + adapters
 langchain==0.2.0
 langchain-openai==0.1.7
 langchain-community==0.2.0
+langchain-chroma==0.1.0
 
 # OpenAI SDK
 openai==1.30.0
+
+# Vector Database
+chromadb==0.4.24
+
+# ML dependencies
+scikit-learn==1.5.0
+
+# GUI
+panel==1.7.5
 
 # Additional runtime dependencies
 pandas==2.2.3
@@ -19,3 +30,4 @@ tiktoken==0.9.0
 wikipedia==1.4.0
 numexpr==2.11.0
 pypdf==4.2.0
+lark==1.1.9
