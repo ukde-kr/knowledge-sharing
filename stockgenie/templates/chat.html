@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Q&A Chat</title>
+</head>
+<body>
+    <h2>Stock Q&A Chat</h2>
+    <form method="post">
+        <input type="text" name="question" size="60" placeholder="Ask a question..." required>
+        <input type="submit" value="Ask">
+    </form>
+
+    {% if functions %}
+        <h3>Functions Called:</h3>
+        <ul>
+        {% for f in functions %}
+            <li>{{ f['name'] }} with args {{ f['args'] }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if answer %}
+        <h3>Answer:</h3>
+        <pre>{{ answer }}</pre>
+    {% endif %}
+</body>
+</html>
